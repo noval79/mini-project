@@ -73,6 +73,15 @@
             text-align: center;
             padding: 10px;
         }
+        .rotate-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #4b4b8f;
+    cursor: pointer;
+}
+
         .clouds {
             position: absolute;
             width: 100%;
@@ -145,6 +154,8 @@
                     <div class="card-front">
                         <img src=".vscode/gambar/foto nopal.jpg" alt="Foto Nopal" class="foto">
                         <div class="name">Muhammad Noval</div>
+                        <div class="rotate-icon" onclick="flipCard(this.closest('.card'))">&#x21bb;</div> <!-- Ini simbol unicode rotasi -->
+
                     </div>
                     <div class="card-back">
                         <div class="bio">
@@ -159,22 +170,33 @@
             </div>
 
             <!-- Kartu kedua -->
-            <div class="card" onclick="flipCard(this)">
-                <div class="inner-card">
-                    <div class="card-front">
-                        <div class="name">NAMA</div>
-                    </div>
-                    <div class="card-back">
-                        <div class="bio">Bio: Deskripsi Biodata</div>
-                    </div>
-                </div>
+<div class="card" onclick="flipCard(this)">
+    <div class="inner-card">
+        <div class="card-front">
+            <img src=".vscode/gambar/Foto Zada.jpg" alt="Foto Zada" class="foto">
+            <div class="name">Zada Alzena</div>
+            <div class="rotate-icon" onclick="flipCard(this.closest('.card'))">&#x21bb;</div> <!-- Ini simbol unicode rotasi -->
+
+        </div>
+        <div class="card-back">
+            <div class="bio">
+                <p><strong>Bio Team :</strong></p>
+                <p>Prodi: Sistem Informasi</p>
+                <p>Hobi: Menyanyi</p>
+                <p>Makanan Favorit: Ayam Geprek</p>
             </div>
+        </div>
+    </div>
+</div>
+
 
             <!-- Kartu ketiga -->
             <div class="card" onclick="flipCard(this)">
                 <div class="inner-card">
                     <div class="card-front">
                         <div class="name">NAMA</div>
+                        <div class="rotate-icon" onclick="flipCard(this.closest('.card'))">&#x21bb;</div> <!-- Ini simbol unicode rotasi -->
+
                     </div>
                     <div class="card-back">
                         <div class="bio">Bio: Deskripsi Biodata</div>
@@ -188,6 +210,8 @@
                     <div class="card-front">
                         <img src=".vscode/gambar/foto rinaldo.jpeg" alt="Foto Rinaldo" class="foto">
                         <div class="name">Rinaldo</div>
+                        <div class="rotate-icon" onclick="flipCard(this.closest('.card'))">&#x21bb;</div> <!-- Ini simbol unicode rotasi -->
+
                     </div>
                     <div class="card-back">
                         <div class="bio">
@@ -206,6 +230,8 @@
                 <div class="inner-card">
                     <div class="card-front">
                         <div class="name">NAMA</div>
+                        <div class="rotate-icon" onclick="flipCard(this.closest('.card'))">&#x21bb;</div> <!-- Ini simbol unicode rotasi -->
+
                     </div>
                     <div class="card-back">
                         <div class="bio">Bio: Deskripsi Biodata</div>
